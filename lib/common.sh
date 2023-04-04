@@ -6,7 +6,6 @@ TEXT_BOLD="$(tput bold)"
 TEXT_STANDOUT="$(tput smso)"
 PREFIX="${COLOR_YELLOW}${TEXT_BOLD}»${COLOR_REST}  "
 
-
 TITLE_TEXT=$(cat "$(dirname "$0")/lib/title.txt")
 TITLE="${COLOR_YELLOW}${TITLE_TEXT}${COLOR_REST}${NEW_LINE}"
 

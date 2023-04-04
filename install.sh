@@ -18,4 +18,4 @@ if [ "$install" != "y" ]; then
 fi
 
 echo "${PREFIX}Adding sts command to zshrc file..."
-echo "alias sts='/bin/bash $DIR_PATH/lib/sts.sh'" >> ~/.zshrc
+echo "alias sts='/bin/bash $path/lib/sts.sh'" >> ~/.zshrc
