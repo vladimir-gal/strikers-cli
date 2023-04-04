@@ -1,0 +1,24 @@
+# Link to original issue
+
+[${ticket}](https://convex.atlassian.net/browse/${ticket})
+
+## Context
+
+${context}
+
+## Checklist
+
+*I have:*
+
+- [ ] Made sure that all code conforms to our coding standards
+- [ ] Written new unit/e2e tests (or updated existing ones) for changes, if necessary
+- [ ] Verified that all unit/e2e tests are passing
+- [ ] Updated the documentation, if necessary
+- [x] Added the Jira reference as a prefix to the title of the PR
+
+## Changes
+
+${changes}
+## Notes
+
+${notes}
