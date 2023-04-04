@@ -7,7 +7,10 @@ path=$(dirname "$path")
 
 source "$path/lib/common.sh"
 
-echo "${TITLE}"
+INSTALL_TITLE_TEXT=$(cat "$(dirname "$0")/lib/title.txt")
+INSTALL_TITLE="${COLOR_YELLOW}${INSTALL_TITLE_TEXT}${COLOR_REST}${NEW_LINE}"
+
+echo "${INSTALL_TITLE}"
 echo "${PREFIX}Welcome to Strikers CLI, a tool to automate git push and pull request creation with opinionated conventions."
 
 read -e -p "${PREFIX}Do you want to install Strikers CLI? (y/n): " install
