@@ -4,9 +4,15 @@ Strikers CLI is a command line interface for Strikers. It is a tool for develope
 
 ### Installation
 
-1. Ask for source files from Vladimir (will be on GitHub soon)
-2. Inside the root directory, run `./install.sh`
-3. Run `sts {subcommand}` to execute a subcommand
+1. Clone this repository
+2. Inside the root directory of this project, run
+   ```bash
+   ./install.sh
+   ```
+3. To execute a command run
+   ```bash
+   sts <command> [options]
+   ```
 
 ### Available commands
 
